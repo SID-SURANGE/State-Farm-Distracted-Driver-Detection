@@ -1,7 +1,7 @@
 # State-Farm-Distracted-Driver-Detection
 
 <p><i> Kaggle hosted the challenge few years ago which focused on identifying distracted drivers using Computer Vision <br>
-    Details of challenge can be found here - https://www.kaggle.com/c/state-farm-distracted-driver-detection </i></p><br>
+    Details of challenge can be found here - https://www.kaggle.com/c/state-farm-distracted-driver-detection </i></p>
     <hr>
     
   <h3> Problem Description </h3>
@@ -37,3 +37,10 @@
   <li> Final Accuracy -Train acc - 99.06%, Val acc-99 .46%
   </ul>
   
+<h4> GRAD-CAM implementation for a test image with label drinking </h4>
+<img src="superimposed_img.jpg"
+     alt="Markdown Monster icon"
+     style="float: center; margin-right: 10px;"
+     height=400
+     width=450
+     align='center'/>
