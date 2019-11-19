@@ -1,4 +1,4 @@
-# State-Farm-Distracted-Driver-Detection
+ <h1 span style="color:red;">State-Farm-Distracted-Driver-Detection</h1>
 
 <p><i> Kaggle hosted the challenge few years ago which focused on identifying distracted drivers using Computer Vision <br>
     Details of challenge can be found here - https://www.kaggle.com/c/state-farm-distracted-driver-detection </i></p>
@@ -7,7 +7,7 @@
 <h3> Problem Description </h3>
 <p>State Farm launched a kaggle competition few years ago called <b>“State Farm Distracted Driver Detection”</b>, where given driver images, each taken in a car with a driver doing something in the car (texting, eating, talking on the phone, makeup, reaching behind, etc). The goal was to predict the likelihood of what the driver is doing in each picture.</p>
     
-  <h3>Dataset details -</h3> 
+  <h3><i>Dataset details -</i></h3> 
   <ul>
     <li><b> Image Size</b> - 480 X 640 pixels</li>
     <li><b> Training Images count</b> - 22424 images </li>
@@ -26,10 +26,10 @@
           <li>    c7: reaching behind<br>
           <li>    c8: hair and makeup<br>
           <li>    c9: talking to passenger</ul>
-   <li> Loss - multi-class logarithmic loss</li>
+    <li><b> Loss</b> - multi-class logarithmic loss</li>
   </ul>
   
-  <h3> Impementation Details</h3>
+  <h3><i> Impementation Details</i></h3>
   <ul>
     <li><b> DL Model</b> - CNN's build from scratch <i>( 6 Conv Layer, 5 Dropout Layer, 3 Dense Layer)</i>
     <li><b> Framework</b> - Keras / Pytorch version in the process.
@@ -38,8 +38,8 @@
   </ul>
 
  
-<h3> GRAD-CAM implementation for a test image with label drinking </h3>
-<p><i> GRAD-CAM is a technique to highlight how a model classifies new instanes by creating a heat map which highlights only the area which has contributed the most in prediction.<br> As seen in below image model classifies driver as distracted by drinking by highlighting the hand and glass.</p>
+<h3><i> GRAD-CAM implementation for a test image with label drinking </i></h3>
+<p><i> GRAD-CAM is a technique to highlight how a model classifies new instanes by creating a heat map which highlights only the area which has contributed the most in prediction.<br> As seen in below image model classifies driver as distracted by drinking by highlighting the hand and glass.</i></p>
 <p align='center'> 
 <img src="superimposed_img.jpg"
      alt="Markdown Monster icon"
@@ -48,7 +48,7 @@
      width=450/>
 </p>
 
-<h3> Sample prediction over test image using Flask </h3>
+<h3><i> Sample prediction over test image using Flask </i></h3>
 <p align='center'> 
 <img src="Sample_prediction.JPG"
      alt="Markdown Monster icon"
