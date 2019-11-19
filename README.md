@@ -31,14 +31,15 @@
   
   <h3> Impementation Details</h3>
   <ul>
-    <li><b> DL Model</b> - CNN's build from scratch ( 6 Conv Layer, 5 Dropout Layer, 3 Dense Layer)
+    <li><b> DL Model</b> - CNN's build from scratch <i>( 6 Conv Layer, 5 Dropout Layer, 3 Dense Layer)</i>
     <li><b> Framework</b> - Keras / Pytorch version in the process.
-    <li><b> CNN Model Visualization</b> - GradCAM
+    <li><b> CNN Model Visualization/Model Interpretability</b> - GradCAM
     <li><b> Final Accuracy</b> -Train acc - 99.06%, Val acc-99 .46%
   </ul>
 
  
 <h3> GRAD-CAM implementation for a test image with label drinking </h3>
+<p><i> GRAD-CAM is a technique to highlight how a model classifies new instanes by creating a heat map which highlights only the area which has contributed the most in prediction.<br> As seen in below image model classifies driver as distracted by drinking by highlighting the hand and glass.</p>
 <p align='center'> 
 <img src="superimposed_img.jpg"
      alt="Markdown Monster icon"
