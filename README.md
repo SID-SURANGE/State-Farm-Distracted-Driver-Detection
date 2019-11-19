@@ -9,12 +9,12 @@
     
   <h3>Dataset details -</h3> 
   <ul>
-  <li> Image Size - 480 X 640 pixels</li>
-  <li> Training Images count - 22424 images </li>
-  <li> Test Images count - 79726 images </li>
-  <li> Image type - RGB </li>
-  <li> Image field of view - Dashboard images with view of Driver and passenger </li>
-  <li> The 10 classes to predict are: <br>
+    <li><b> Image Size</b> - 480 X 640 pixels</li>
+    <li><b> Training Images count</b> - 22424 images </li>
+    <li><b> Test Images count</b> - 79726 images </li>
+    <li><b> Image type</b> - RGB </li>
+    <li><b> Image field of view</b> - Dashboard images with view of Driver and passenger </li>
+    <li><b> The 10 classes to predict are:</b> <br>
         <ul>
           <li>    c0: safe driving<br>
           <li>    c1: texting - right<br>
@@ -31,10 +31,10 @@
   
   <h3> Impementation Details</h3>
   <ul>
-  <li> DL Model - CNN's build from scratch ( 6 Conv Layer, 5 Dropout Layer, 3 Dense Layer)
-  <li> Framework - Keras / Pytorch version in the process.
-  <li> CNN Model Visualization - GradCAM
-  <li> Final Accuracy -Train acc - 99.06%, Val acc-99 .46%
+    <li><b> DL Model</b> - CNN's build from scratch ( 6 Conv Layer, 5 Dropout Layer, 3 Dense Layer)
+    <li><b> Framework</b> - Keras / Pytorch version in the process.
+    <li><b> CNN Model Visualization</b> - GradCAM
+    <li><b> Final Accuracy</b> -Train acc - 99.06%, Val acc-99 .46%
   </ul>
 
  
